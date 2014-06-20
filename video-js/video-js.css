@@ -421,8 +421,8 @@ easily in the skin designer. http://designer.videojs.com/
   display: block;
   z-index: 2;
   position: absolute;
-  width: 4em;
-  height: 2.6em;
+  width: 2.5em;
+  height: 2.5em;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -430,16 +430,16 @@ easily in the skin designer. http://designer.videojs.com/
   /* Need a slightly gray bg so it can be seen on black backgrounds */
   /* background-color-with-alpha */
   background-color: #07141e;
-  background-color: rgba(7, 20, 30, 0.7);
-  border: 0.1em solid #3b4249;
+  background-color: rgba(7, 20, 30, 0.5);
+  border: 0.1em solid #fff;
   /* border-radius */
-  -webkit-border-radius: 0.8em;
-  -moz-border-radius: 0.8em;
-  border-radius: 0.8em;
-  /* box-shadow */
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  /* box-shadow 
   -webkit-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
   -moz-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
-  box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);*/
   /* transition */
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -473,12 +473,13 @@ easily in the skin designer. http://designer.videojs.com/
   outline: 0;
   border-color: #fff;
   /* IE8 needs a non-glow hover state */
-  background-color: #505050;
-  background-color: rgba(50, 50, 50, 0.75);
-  /* box-shadow */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.65);
+  border: 0.1em solid #fff;
+  /* box-shadow
   -webkit-box-shadow: 0 0 3em #ffffff;
   -moz-box-shadow: 0 0 3em #ffffff;
-  box-shadow: 0 0 3em #ffffff;
+  box-shadow: 0 0 3em #ffffff; */
   /* transition */
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
@@ -491,7 +492,7 @@ easily in the skin designer. http://designer.videojs.com/
   /* In order to center the play icon vertically we need to set the line height
      to the same as the button height */
 
-  line-height: 2.6em;
+  line-height: 2.5em;
   text-shadow: 0.05em 0.05em 0.1em #000;
   text-align: center /* Needed for IE8 */;
   position: absolute;
