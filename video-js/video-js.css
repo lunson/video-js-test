@@ -497,7 +497,7 @@ easily in the skin designer. http://designer.videojs.com/
 
   line-height: 2.5em;
   margin-left: 2px;
-  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.15);
   text-align: center /* Needed for IE8 */;
   position: absolute;
   left: 0;
