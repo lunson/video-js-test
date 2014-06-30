@@ -143,6 +143,7 @@ fonts to show/hide properly.
   padding: 0;
   height: 3.0em;
   width: 4em;
+  color: #fafafa;
 }
 /* FontAwsome button icons */
 .vjs-default-skin .vjs-control:before {
@@ -218,6 +219,7 @@ fonts to show/hide properly.
 .vjs-default-skin .vjs-volume-menu-button {
   cursor: pointer;
   float: right;
+  font-size: 0.9em;
 }
 .vjs-default-skin .vjs-mute-control:before,
 .vjs-default-skin .vjs-volume-menu-button:before {
@@ -401,6 +403,7 @@ fonts to show/hide properly.
   width: 3.8em;
   cursor: pointer;
   float: right;
+  font-size: .9em;
 }
 .vjs-default-skin .vjs-fullscreen-control:before {
   content: "\e000";
