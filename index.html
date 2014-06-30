@@ -6,6 +6,8 @@
   <!-- Chang URLs to wherever Video.js files will be hosted -->
   <link href="video-js/video-js.css" rel="stylesheet" type="text/css">
   <!-- video.js must be in the <head> for older IEs to work. -->
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
   <script src="video-js/video.js"></script>
 
   <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
@@ -17,18 +19,26 @@
 </head>
 <body>
 
-  <video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button" controls preload="none" width="400" height="400"
-      poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
-      data-setup='{
-        "controls": true,
-        "autoplay": false,
-        "preload": "none"
-      }'>
-    <source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
-    <source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
-    <source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
-    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-  </video>
+  <div>
+  
+	<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
+	  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
+	  data-setup='{
+	    "controls": true,
+	    "autoplay": false,
+	    "preload": "none"
+	  }'>
+	<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
+	<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
+	<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
+	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+	</video>
+	
+	<footer>
+		<p>powered by <a href="http://www.glencoesoftware.com" target="_blank">Glencoe Software</a></p>
+	</footer>
+  
+  </div>
 
 </body>
 </html>

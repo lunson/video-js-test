@@ -1,0 +1,26 @@
+body {
+	background-color: #111;
+}
+
+.center {
+	margin: 100px auto 0;
+	vertical-align: center;
+	width: 1200px;
+}
+
+/* == FOOTER ==*/
+footer { margin: 25px auto; }
+
+footer p { 
+	color: #fff;
+	font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+footer a:link, footer a:visited { color: #245ca9; }
+footer a:hover {
+	color: #1c4986;
+	text-decoration: none;
+}
+footer a:active { color: #245ca9; }
