@@ -155,12 +155,12 @@ fonts to show/hide properly.
   width: 100%;
   height: 100%;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.15);
 }
 /* Replacement for focus outline */
 .vjs-default-skin .vjs-control:focus:before,
 .vjs-default-skin .vjs-control:hover:before {
-  text-shadow: 0em 0em 1em #ffffff;
+  text-shadow: 0em 0em 1em rgba(0, 0, 0, 0.15);
 }
 .vjs-default-skin .vjs-control:focus {
   /*  outline: 0; */
