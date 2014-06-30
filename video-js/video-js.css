@@ -52,22 +52,22 @@ The control icons are from a custom font. Each icon corresponds to a character
   top: 0;
 }
 .vjs-default-skin .vjs-slider-handle:before {
-  content: "\e009";
-  font-family: VideoJS;
-  font-size: 1em;
-  line-height: 1;
-  text-align: center;
-  text-shadow: 0em 0em 1em #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  /* Rotate the square icon to make a diamond */
-  /* transform */
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+	color: #fff;
+	content: "\e009";
+	font-family: VideoJS;
+	font-size: .9em;
+	line-height: 1;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* Rotate the square icon to make a diamond */
+	/* transform */
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
 }
 /* Control Bar
 --------------------------------------------------------------------------------
