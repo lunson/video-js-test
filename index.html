@@ -20,8 +20,8 @@
 <body>
 
   <div>
-  
-	<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
+	
+	<video id="video-0" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none"
 	  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
 	  data-setup='{
 	    "controls": true,
@@ -34,11 +34,63 @@
 	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 	</video>
 	
+	<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
+	  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
+	  data-setup='{
+	    "controls": true,
+	    "autoplay": false,
+	    "preload": "none"
+	  }'>
+	<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
+	<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
+	<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
+	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+	</video>
+
 	<footer>
 		<p>powered by <a href="http://www.glencoesoftware.com/data-inpress.html" target="_blank">Data InPress</a></p>
 	</footer>
   
   </div>
+
+<!-- for reference: http://daverupert.com/2012/05/making-video-js-fluid-for-rwd/ -->
+<script type="text/javascript">
+  // Once the video is ready
+  _V_("video-0").ready(function(){
+
+    var myPlayer = this;    // Store the video object
+    var aspectRatio = 9/16; // Make up an aspect ratio
+
+    function resizeVideoJS(){
+      // Get the parent element's actual width
+      var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+      // Set width to fill parent element, Set height
+      myPlayer.width(width).height( width * aspectRatio );
+    }
+
+    resizeVideoJS(); // Initialize the function
+    window.onresize = resizeVideoJS; // Call the function on resize
+  });
+</script>
+
+<script type="text/javascript">
+  // Once the video is ready
+  _V_("video-1").ready(function(){
+
+    var myPlayer = this;    // Store the video object
+    var aspectRatio = 9/16; // Make up an aspect ratio
+
+    function resizeVideoJS(){
+      // Get the parent element's actual width
+      var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+      // Set width to fill parent element, Set height
+      myPlayer.width(width).height( width * aspectRatio );
+    }
+
+    resizeVideoJS(); // Initialize the function
+    window.onresize = resizeVideoJS; // Call the function on resize
+  });
+</script>
 
 </body>
 </html>
