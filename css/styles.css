@@ -1,19 +1,43 @@
 body {
-	background-color: #111;
+	background-color: #151818;
+	color: #effcfb;
+	font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
 }
 
 .center {
-	margin: 100px auto 0;
+	margin: 75px auto 0;
 	vertical-align: center;
 	width: 1200px;
+}
+
+/* == LEGEND AND CITATION ==*/
+#manuscript-details {
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+#manuscript-details > div {
+	background-color: #1b2726;	
+	border-radius: 7px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,.15);
+	margin-top: 20px;
+	padding: 5px 20px 10px;
+}
+
+h1.manuscript-title, h2.figure-title {
+	color: #a7bbb9;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+p.doi-info {
+	font-size: 9px;
 }
 
 /* == FOOTER ==*/
 footer { margin: 25px auto; }
 
-footer p { 
-	color: #fff;
-	font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+footer p {
 	font-size: 10px;
 	text-align: center;
 }
