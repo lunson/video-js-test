@@ -2,34 +2,35 @@
 <html class="no-js" lang="en">
 <head>
 <title>http://rup-movie.glencoesoftware.com/video/10.1084/jem.20132336/video-1</title>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http://movie-usa.glencoesoftware.com/static/video_inline.min.js"></script>
-<link href="http://movie-usa.glencoesoftware.com/static/video-js.min.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8" />
-<link href="css/styles-light.css" rel="stylesheet" type="text/css">
+<!-- Change URLs to wherever Video.js files will be hosted -->
+  <link href="video-js/video-js.css" rel="stylesheet" type="text/css">
+  <!-- video.js must be in the <head> for older IEs to work. -->
+  <link href="css/styles-light.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+  <script src="video-js/video.js"></script>
+
+  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+  <script>
+    videojs.options.flash.swf = "video-js/video-js.swf";
+  </script>
 </head>
 
 <body>
 
 	<div class="hw-gen-page pagetype-content hw-pub-id-datasupp">
 		<div class="fig-inline">
-			<div class="video-js-box center">
-				<video class="video-js" width="400"
-				height="400"
-				controls="controls" preload="preload" poster="http://static.movie-usa.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg">
-				<source src="http://static.movie-usa.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4"
-				type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-				<source src="http://static.movie-usa.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv"
-				type='video/ogg; codecs="theora, vorbis"'/>
-				<object class="vjs-flash-fallback" width="400"
-				height="400"
-				type="application/x-shockwave-flash"
-				data="http://movie-usa.glencoesoftware.com/static/flowplayer-3.2.18.swf">
-				<param name="movie" value="http://movie-usa.glencoesoftware.com/static/flowplayer-3.2.18.swf"/>
-				<param name="allowfullscreen" value="true" />
-				<param name="flashvars" value='config={"playlist":["http://static.movie-usa.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg", {"url": "http://static.movie-usa.glencoesoftware.com/flv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.flv","autoPlay":false,"autoBuffering":true}], "plugins":{"controls":{"volume":false,"mute":false}}}' />
-				<img src="http://static.movie-usa.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg" alt="Poster Image"
-				title="No video playback capabilities." />
-				</object>
+			<div class="video-js-box center">		
+				<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
+				  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
+				  data-setup='{
+				    "controls": true,
+				    "autoplay": false,
+				    "preload": "none"
+				  }'>
+				<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
+				<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
+				<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
+				<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 				</video>
 			</div>
 		</div>
