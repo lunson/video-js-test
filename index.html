@@ -1,96 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>10.1084/jem.20132336 :: Video 1</title>
-
-  <!-- Change URLs to wherever Video.js files will be hosted -->
-  <link href="video-js/video-js.css" rel="stylesheet" type="text/css">
-  <!-- video.js must be in the <head> for older IEs to work. -->
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
-  <script src="video-js/video.js"></script>
-
-  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
-  <script>
-    videojs.options.flash.swf = "video-js/video-js.swf";
-  </script>
-
-
-</head>
-<body>
-
-  <div>
-	
-	<video id="video-0" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none"
-	  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
-	  data-setup='{
-	    "controls": true,
-	    "autoplay": false,
-	    "preload": "none"
-	  }'>
-	<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
-	<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
-	<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
-	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-	</video>
-	
-	<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
-	  poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
-	  data-setup='{
-	    "controls": true,
-	    "autoplay": false,
-	    "preload": "none"
-	  }'>
-	<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
-	<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
-	<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
-	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-	</video>
-
-	<footer>
-		<p>powered by <a href="http://www.glencoesoftware.com/data-inpress.html" target="_blank">Data InPress</a></p>
-	</footer>
   
-  </div>
-
-<!-- for reference: http://daverupert.com/2012/05/making-video-js-fluid-for-rwd/ -->
-<script type="text/javascript">
-  // Once the video is ready
-  _V_("video-0").ready(function(){
-
-    var myPlayer = this;    // Store the video object
-    var aspectRatio = 9/16; // Make up an aspect ratio
-
-    function resizeVideoJS(){
-      // Get the parent element's actual width
-      var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
-      // Set width to fill parent element, Set height
-      myPlayer.width(width).height( width * aspectRatio );
-    }
-
-    resizeVideoJS(); // Initialize the function
-    window.onresize = resizeVideoJS; // Call the function on resize
-  });
-</script>
-
-<script type="text/javascript">
-  // Once the video is ready
-  _V_("video-1").ready(function(){
-
-    var myPlayer = this;    // Store the video object
-    var aspectRatio = 9/16; // Make up an aspect ratio
-
-    function resizeVideoJS(){
-      // Get the parent element's actual width
-      var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
-      // Set width to fill parent element, Set height
-      myPlayer.width(width).height( width * aspectRatio );
-    }
-
-    resizeVideoJS(); // Initialize the function
-    window.onresize = resizeVideoJS; // Call the function on resize
-  });
-</script>
-
+<head>
+	<title>Data InPress solo page</title>
+	<link href="css/styles-responsive.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+	
+<body>
+	
+	<article>
+	
+		<figure>
+		
+			<video id="video-1" class="video-js vjs-default-skin vjs-big-play-centered vjs-big-play-button center" controls preload="none" width="400" height="400"
+			poster="http://static.rup-movie.glencoesoftware.com/jpg/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.jpg"
+			data-setup='{
+			"controls": true,
+			"autoplay": false,
+			"preload": "none"
+			}'>
+			<source src="http://static.rup-movie.glencoesoftware.com/mp4/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.mp4" type='video/mp4' />
+			<source src="http://static.rup-movie.glencoesoftware.com/webm/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.webm" type='video/webm' />
+			<source src="http://static.rup-movie.glencoesoftware.com/ogv/10.1084/898/6288d83a2327213e0c715117afe6a94e61732572/JEM_20132336_V1.ogv" type='video/ogg' />
+			<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+			</video>
+			
+			<figcaption class="legend">
+				<h2 class="figure-title">Video 1</h2>
+				<p>Time-lapse video of bone marrow-derived eosinophils and a C. elegans dauer larva over the course of 80 min. Images were acquired once every 30 s and are displayed at a frame rate of 15/s. Collective migration toward the debris in the top right was not apparent. Stills from this video are shown in Fig. 1. Results represent three independent experiments. Bar, 50 um.</p>
+			</figcaption>
+			
+			<figcaption class="citation">
+				<h1 class="manuscript-title"><a href="">Leukotriene B4 amplifies eosinophil accumulation in response to nematodes</a></h1>
+			    <p class="authors">Michael L. Patnode, Jennifer K. Band, Matthew F. Krummel, Richard M. Locksley, Steven D. Rosen</p>
+			    <p class="doi-info">JEM vol. 205 no. 5 643-661 <a href="">Article DOI: 10.1083/jcb.201312002</a></p>  
+			</div>
+			
+		</figure>
+	
+	</article>
+	
+		<footer>
+			<p>powered by <a href="http://www.glencoesoftware.com/data-inpress.html" target="_blank">Data InPress</a></p>
+		</footer>
+	
+	<script>$(function() {
+	
+	var $allVideos = $("iframe[src^='http://player.vimeo.com'], iframe[src^='http://www.youtube.com'], object, embed"),
+	$fluidEl = $("figure");
+	
+	$allVideos.each(function() {
+	
+	$(this)
+	// jQuery .data does not work on object/embed elements
+	.attr('data-aspectRatio', this.height / this.width)
+	.removeAttr('height')
+	.removeAttr('width');
+	
+	});
+	
+	$(window).resize(function() {
+	
+	var newWidth = $fluidEl.width();
+	$allVideos.each(function() {
+	
+	var $el = $(this);
+	$el
+	.width(newWidth)
+	.height(newWidth * $el.attr('data-aspectRatio'));
+	
+	});
+	
+	}).resize();
+	
+	});
+	</script>  
+	
 </body>
+	
 </html>
