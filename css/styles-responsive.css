@@ -7,8 +7,9 @@ body {
 	color: #758093;
 	font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
 	margin: 50px auto;
-	width: 50%;
 }
+
+body.fully-responsive { width: 50%; }
 
 .center {
 	margin: 0 auto;
@@ -16,11 +17,7 @@ body {
 	width: 1200px;
 }
 
-article {
-	
-}
-
-video {
+video.responsive {
 	width: 100%    !important;
 	height: auto   !important;
 }
