@@ -907,3 +907,20 @@ body.vjs-full-window {
 /* -----------------------------------------------------------------------------
 The original source of this file lives at
 https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
+
+
+/* Hippio Customizations */
+
+.hippio-large.vjs-default-skin .vjs-big-play-button {
+    font-size: 5em;
+    width: 2.7em;
+    height: 2.7em;
+}
+
+.hippio-large.vjs-default-skin .vjs-big-play-button:before {
+    line-height: 2.5em;
+}
+
+.hippio-small.vjs-default-skin .vjs-big-play-button {
+    font-size: 2em;
+}
