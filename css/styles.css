@@ -81,8 +81,38 @@ h1.manuscript-title {
 
 p.doi-info { font-size: 8px; }
 
+/*== CTA BUTTON --*/
+.call-to-action {
+	margin: 30px auto 0;
+	text-align: center;
+	width: 100%;
+}
+
+button.dipper {
+	background-color: #a4bebb;
+	border: 1px solid #a7bbb9;
+	border-bottom: 2px solid #a7bbb9;
+	border-radius: 3px;
+	cursor: pointer;
+	height: 28px;
+}
+
+button.solo-page-action-button {
+	color: #fff;
+	overflow: hidden;
+	padding: 4px 13px 4px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+button.solo-page-action-button:hover {
+	background-color: #629490;
+	border: 1px solid #629490;
+	border-bottom: 2px solid #629490;
+}
+
 /* == FOOTER ==*/
-footer { margin: 50px auto; }
+footer { margin: 30px auto; }
 
 footer p {
 	font-size: 10px;
