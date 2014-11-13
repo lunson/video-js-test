@@ -803,7 +803,7 @@ html.hippio-solo body {
     margin: 50px auto;
 }
 html.hippio-solo body {
-    background-color: #f3f5f7;
+    background-color: #c8d0db;
 }
 html.hippio-solo div.video-js {
     margin: 0 auto;
@@ -811,7 +811,7 @@ html.hippio-solo div.video-js {
 html.hippio-solo body.fully-responsive {
     width: 50%}
 html.hippio-solo .center {
-    margin: 0 auto;
+	margin: 0 auto;
     vertical-align: center;
     width: 1200px;
 }
@@ -873,7 +873,7 @@ html.hippio-solo p.doi-info {
     font-size: 8px;
 }
 html.hippio-solo footer {
-    margin: 50px auto;
+    margin: 20px auto;
 }
 html.hippio-solo footer p {
     font-size: 10px;
