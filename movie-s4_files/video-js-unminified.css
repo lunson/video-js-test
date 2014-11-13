@@ -873,7 +873,7 @@ html.hippio-solo p.doi-info {
     font-size: 8px;
 }
 html.hippio-solo footer {
-    margin: 30px auto;
+    margin: 50px auto;
 }
 html.hippio-solo footer p {
     font-size: 10px;
@@ -889,7 +889,6 @@ html.hippio-solo .call-to-action .dipper {
     border-bottom: 2px solid #a7bbb9;
     border-radius: 3px;
     cursor: pointer;
-    height: 28px;
 }
 html.hippio-solo .call-to-action .solo-page-action-button {
     color: #fff;
@@ -900,6 +899,8 @@ html.hippio-solo .call-to-action .solo-page-action-button {
     text-decoration: none;
     font-size: smaller;
 }
+a.button-left { float: left; margin-left: 15px; }
+a.button-right { float: right; margin-right: 15px; }
 html.hippio-solo .call-to-action .solo-page-action-button:hover {
     background-color: #629490;
     border: 1px solid #629490;
