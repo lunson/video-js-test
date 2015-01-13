@@ -10,3 +10,19 @@
   font-weight: 600;
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
+
+.header-rupress {
+	background-color: #fff;
+	height: 50px;
+} 
+
+.contain-rupress {
+	border: 1px solid #c0c;
+	display: inline-block;
+	margin: 100px;
+	width: 960px;
+}
+
+.journal-main-nav ul {
+	display: inline;
+}
