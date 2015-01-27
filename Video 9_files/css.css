@@ -11,18 +11,48 @@
   src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 
-.header-rupress {
+#header-rupress {
 	background-color: #fff;
 	height: 50px;
+	margin: 0 auto;
+	width: 100%;
 } 
 
-.contain-rupress {
-	border: 1px solid #c0c;
-	display: inline-block;
-	margin: 100px;
+#contain-rupress {
+	margin: 0 auto;
+	height: 50px;
+	vertical-align: middle;
 	width: 960px;
 }
 
-.journal-main-nav ul {
+img#logo {
+	position: relative; top: 5px; left: 130px;	
+}
+
+ul#nav-rupress {
+	position: relative; top: -30px; left: 250px;	
+}
+
+ul#nav-rupress li {
 	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+ul#nav-rupress > li a {
+	background-color: #817c76;
+	border: 1px solid #817c76;
+	color: #fff;
+	margin: -1px;
+	padding: 5px 7px 4px;
+	text-decoration: none;
+}
+
+ul#nav-rupress > li a:hover {
+	background-color: #fff;
+	border: 1px solid #817c76;
+	color: #817c76;
+	text-decoration: none;
 }

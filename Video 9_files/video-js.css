@@ -798,8 +798,8 @@ html.hippio-solo * {
 html.hippio-solo img {
     max-width: 100%}
 html.hippio-solo body {
-    color: #758093;
-    font-family: "Open Sans", "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-family: Arial, 'Liberation Sans', sans-serif;
     margin: 0;
     background-color: #c8d0db;
 }
@@ -827,14 +827,15 @@ html.hippio-solo figure {
     padding: 20px 20px 55px;
 }
 html.hippio-solo a:link, html.hippio-solo a:visited {
-    color: #245ca9;
-}
-html.hippio-solo a:hover {
-    color: #1c4986;
+    color: #f63f1b;
     text-decoration: none;
 }
+html.hippio-solo a:hover {
+    color: #f63f1b;
+    text-decoration: underline;
+}
 html.hippio-solo a:active {
-    color: #245ca9;
+    color: #f63f1b;
 }
 html.hippio-solo figcaption {
     display: block;
@@ -852,9 +853,9 @@ html.hippio-solo .legend p {
     margin-top: 5px;
 }
 html.hippio-solo h2.figure-title {
-    color: #629490;
+    color: #000000;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
 }
 html.hippio-solo .citation {
     border-top: 1px solid #dcdcdc;
@@ -887,11 +888,11 @@ html.hippio-solo .call-to-action {
     text-align: center;
     width: 100%}
 html.hippio-solo .call-to-action .dipper {
-    background-color: #a4bebb;
-    border: 1px solid #a7bbb9;
-    border-bottom: 2px solid #a7bbb9;
-    border-radius: 3px;
+    background-color: #817c76;
+    border: 1px solid #817c76;
+    border-bottom: 2px solid #817c76;
     cursor: pointer;
+    font-weight: bold;
 }
 html.hippio-solo .call-to-action .solo-page-action-button {
     color: #fff;
@@ -911,7 +912,7 @@ html.hippio-solo .call-to-action .button-right {
     margin-right: 15px;
 }
 html.hippio-solo .call-to-action .solo-page-action-button:hover {
-    background-color: #629490;
-    border: 1px solid #629490;
-    border-bottom: 2px solid #629490;
+    background-color: #fff;
+    border: 1px solid #817c76;
+    color: #817c76;
 }
