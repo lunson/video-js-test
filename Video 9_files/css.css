@@ -13,24 +13,24 @@
 
 #header-rupress {
 	background-color: #fff;
-	height: 50px;
+	height: 75px;
 	margin: 0 auto;
 	width: 100%;
 } 
 
 #contain-rupress {
 	margin: 0 auto;
-	height: 50px;
+	height: 75px;
 	vertical-align: middle;
 	width: 960px;
 }
 
 img#logo {
-	position: relative; top: 5px; left: 130px;	
+	position: relative; top: 8px; left: 100px;	
 }
 
 ul#nav-rupress {
-	position: relative; top: -30px; left: 250px;	
+	position: relative; top: -20px; left: 280px;	
 }
 
 ul#nav-rupress li {
