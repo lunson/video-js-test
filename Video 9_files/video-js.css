@@ -827,15 +827,15 @@ html.hippio-solo figure {
     padding: 20px 20px 55px;
 }
 html.hippio-solo a:link, html.hippio-solo a:visited {
-    color: #f63f1b;
+    color: #0155a5;
     text-decoration: none;
 }
 html.hippio-solo a:hover {
-    color: #f63f1b;
+    color: #0155a5;
     text-decoration: underline;
 }
 html.hippio-solo a:active {
-    color: #f63f1b;
+    color: #0155a5;
 }
 html.hippio-solo figcaption {
     display: block;
