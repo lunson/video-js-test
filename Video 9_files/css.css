@@ -34,6 +34,7 @@ ul#nav-rupress {
 }
 
 ul#nav-rupress li {
+	border-right: 1px solid #fff;
 	display: inline;
 	font-size: 11px;
 	font-weight: bold;
@@ -45,7 +46,6 @@ ul#nav-rupress > li a {
 	background-color: #817c76;
 	border: 1px solid #817c76;
 	color: #fff;
-	margin: -1px;
 	padding: 5px 7px 4px;
 	text-decoration: none;
 }
