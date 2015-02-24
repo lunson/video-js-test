@@ -875,10 +875,10 @@ html.hippio-solo .citation p {
 html.hippio-solo p.doi-info {
     font-size: 10px;
 }
-html.hippio-solo footer {
+#footer {
     margin: 20px auto;
 }
-html.hippio-solo footer p {
+#footer p {
     font-size: 10px;
     text-align: center;
 }
