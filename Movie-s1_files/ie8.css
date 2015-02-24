@@ -1,0 +1,8 @@
+html.hippio-solo body {
+    background-color: #ffffff;
+}
+
+#all-videos-button {
+	float: left;
+	margin-left: 15px;
+}
