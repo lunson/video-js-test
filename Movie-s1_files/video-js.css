@@ -836,7 +836,7 @@ html.hippio-solo a:hover {
 html.hippio-solo a:active {
     color: #245ca9;
 }
-html.hippio-solo figcaption {
+html.hippio-solo div {
     display: block;
     font-size: 12px;
     margin: 0 auto;
@@ -900,7 +900,6 @@ html.hippio-solo .call-to-action .solo-page-action-button {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: smaller;
 }
 html.hippio-solo .call-to-action .button-left {
     float: left;
